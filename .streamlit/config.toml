@@ -1,4 +1,6 @@
 [server]
 enableCORS = false
 enableWebsocketCompression = false
+enableXsrfProtection = false
+headless = true
 port = 80
