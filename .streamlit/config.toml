@@ -4,3 +4,6 @@ enableWebsocketCompression = false
 enableXsrfProtection = false
 headless = true
 port = 80
+
+[browser]
+serverPort = 80
