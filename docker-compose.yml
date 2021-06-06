@@ -5,3 +5,5 @@ services:
     command: "streamlit run app.py"
     ports:
       - "80:8501"
+    volumes:
+      - ".:/app"
