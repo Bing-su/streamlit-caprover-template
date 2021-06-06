@@ -8,9 +8,7 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app
 
-ENV PORT 80
-
-RUN sh setup.sh
+EXPOSE 8501
 
 ENTRYPOINT ["streamlit", "run"]
 
