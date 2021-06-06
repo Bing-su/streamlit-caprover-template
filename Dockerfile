@@ -12,4 +12,4 @@ EXPOSE 8501
 
 ENTRYPOINT ["streamlit", "run"]
 
-CMD ["app.py", "--server.enableCORS=false"]
+CMD ["app.py", "--server.enableWebsocketCompression=false"]
