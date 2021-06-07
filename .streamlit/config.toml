@@ -3,6 +3,7 @@
 headless = true
 port = 80
 enableCORS = false
+enableXsrfProtection = false
 
 [browser]
 
